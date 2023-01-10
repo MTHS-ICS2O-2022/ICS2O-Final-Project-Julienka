@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!-- ICS2O-Final-Project-Julienka -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Select and shop!" />
+    <meta name="keywords" content="mths, ics2o" />
+    <meta name="author" content="Julienka-Sohal" />
+    <meta name="theme-color" content="#FFFFFF" />
+    <link
+      rel="canonical"
+      href="https://julienka-sohal.github.io/ICS2O-Final-Project-Julienka/"
+    />
+    <link
+      rel="manifest"
+      href="/ICS2O-Final-Project-Julienka/manifest.webmanifest"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!--- None blocking for Lighthouse report --->
+    <!--- https://stackoverflow.com/questions/32759272/how-to-load-css-asynchronously --->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      media="none"
+      onload="if(media!='all')media='all'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      />
+    </noscript>
+    <link
+      rel="stylesheet"
+      href="https://code.getmdl.io/1.3.0/material.deep_purple-purple.min.css"
+      media="none"
+      onload="if(media!='all')media='all'"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://code.getmdl.io/1.3.0/material.deep_purple-purple.min.css"
+      />
+    </noscript>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+  </head>
+  <title>Julienka's Clothing Shop</title>
+  <body>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="./js/script.js"></script>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout-title">Julienka's Clothing Shop</span>
+        </div>
+      </header>
+      <main class="mdl-layout__content">
+        <div>
+          <p></p>
+          <img
+            src="./image/shop-photo.png"
+            alt="shop"
+            width="25%"
+            height="25%"
+          />
+          <p></p>
+        </div>
+        <h3 class="font">Select and shop!</h3>
+        <h6 class="font">Select one each and check out with a price</h6>
+        <!-- Shirts Selector -->
+        <table
+          class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp"
+        >
+          <thead>
+            <tr>
+              <th class="mdl-data-table__cell--non-numeric font">Tops</th>
+              <th>|</th>
+              <th class="font">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="mdl-data-table__cell--non-numeric font">
+                Plain Dark Green Sweater
+              </td>
+              <td class="font">|</td>
+              <td class="font">$2.90</td>
+            </tr>
+            <tr>
+              <td class="mdl-data-table__cell--non-numeric font">
+                Blue and white checkered button up shirt
+              </td>
+              <td>|</td>
+              <td class="font">$1.25</td>
+            </tr>
+            <tr>
+              <td class="mdl-data-table__cell--non-numeric font">
+                Grayish-Brown shirt with graffiti art
+              </td>
+              <td>|</td>
+              <td class="font">$2.35</td>
+            </tr>
+          </tbody>
+        </table>
+      </main>
+    </div>
+  </body>
+</html>
