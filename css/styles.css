@@ -42,3 +42,8 @@ img {
   float: right;
   margin-right: 15px;
 }
+
+.font {
+  font-family: "Playfair Display", "Didot", "Times New Roman", Times, serif;
+  color: #000000
+}
