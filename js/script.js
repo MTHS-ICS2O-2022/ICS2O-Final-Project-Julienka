@@ -23,13 +23,16 @@ function myButtonClicked() {
   const sculptureArt = document.getElementById("checkbox-3").checked
 
   if (paintArt == true) {
-    const paintArtAns = 4.50 * 1.3
-    document.getElementById("checkOut").innerHTML = "Your recipt is $" + paintArtAns.toFixed(2) + "."
+    const paintArtAns = 4.5 * 1.3
+    document.getElementById("checkOut").innerHTML =
+      "Your recipt is $" + paintArtAns.toFixed(2) + "."
   } else if (sandArt == true) {
     const sandArtAns = 5 * 1.3
-    document.getElementById("checkOut").innerHTML = "Your recipt is $" + sandArtAns.toFixed(2) + "."
+    document.getElementById("checkOut").innerHTML =
+      "Your recipt is $" + sandArtAns.toFixed(2) + "."
   } else if (sculptureArt == true) {
     const sculptureArtAns = 10 * 1.3
-    document.getElementById("checkOut").innerHTML = "Your recipt is $" + sculptureArtAns.toFixed(2) + "."
+    document.getElementById("checkOut").innerHTML =
+      "Your recipt is $" + sculptureArtAns.toFixed(2) + "."
   }
 }
