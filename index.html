@@ -58,63 +58,66 @@
         </div>
       </header>
       <main class="mdl-layout__content">
+        <h3 class="font">Select and shop!</h3>
+        <h6 class="font">Unselect the ones  you don't wish to purchase</h6>
         <div>
-          <h3 class="font">Select and shop!</h3>
-          <p></p>
           <img
             class="solid"
             src="./image/shop-photo.png"
             alt="shop"
-            width="25%"
+            width="19.3%"
             height="25%"
           />
           <p></p>
         </div>
         <!-- art Selector -->
-        <label
-          class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect"
-          for="checkbox-1"
-        >
-          <input
-            type="checkbox"
-            id="checkbox-1"
-            class="mdl-checkbox__input"
-            checked
-          />
-          <span class="mdl-checkbox__label">Painting</span>
-        </label>
-        <label
-          class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect"
-          for="checkbox-2"
-        >
-          <input
-            type="checkbox"
-            id="checkbox-2"
-            class="mdl-checkbox__input"
-            checked
-          />
-          <span class="mdl-checkbox__label">Sand Art</span>
-        </label>
-        <label
-          class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect"
-          for="checkbox-3"
-        >
-          <input
-            type="checkbox"
-            id="checkbox-3"
-            class="mdl-checkbox__input"
-            checked
-          />
-          <span class="mdl-checkbox__label">Sugar Art</span>
-        </label>
-        <br />
+        <div class="float-parent-element">
+          <label
+            class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect"
+            for="checkbox-1"
+          >
+            <input
+              type="checkbox"
+              id="checkbox-1"
+              class="mdl-checkbox__input"
+              checked
+            />
+            <span class="mdl-checkbox__label">Painting | $4.50</span>
+          </label>
+          <label
+            class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect"
+            for="checkbox-2"
+          >
+            <input
+              type="checkbox"
+              id="checkbox-2"
+              class="mdl-checkbox__input"
+              checked
+            />
+            <span class="mdl-checkbox__label">Sand Art | $5.00</span>
+          </label>
+          <label
+            class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect"
+            for="checkbox-3"
+          >
+            <input
+              type="checkbox"
+              id="checkbox-3"
+              class="mdl-checkbox__input"
+              checked
+            />
+            <span class="mdl-checkbox__label">Sculpture | $10.00</span>
+          </label>
+        </div>
         <br />
         <button
           class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
           onclick="myButtonClicked()"
         >
-          Button
+          Check out
         </button>
+        <p></p>
+        <div id="checkOut">?</div>
       </main>
     </div>
   </body>

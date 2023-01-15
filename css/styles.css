@@ -27,7 +27,7 @@
 }
 
 body {
-  background-color: rgb(194 155 232);
+  background-color: rgb(212, 155, 232);
 }
 
 p {
@@ -39,7 +39,7 @@ p {
 }
 
 img {
-  float: left;
+  float: right;
 }
 
 .font {
@@ -51,3 +51,12 @@ img {
   border-style: solid;
   border-color: #e8788e;
 }
+
+.float-parent-element { 
+    width: 50%; 
+} 
+
+.float-child-element { 
+    float: right; 
+    width: 50%; 
+} 
