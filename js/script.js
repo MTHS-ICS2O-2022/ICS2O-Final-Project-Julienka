@@ -17,16 +17,5 @@ if (navigator.serviceWorker) {
 
 //process
 function myButtonClicked() {
-  let num = parseInt(document.getElementById("numberOne").value)
-  let den = parseInt(document.getElementById("numberTwo").value)
-  let temp = 0
-  let rem = num
-  while (rem != 1) {
-    if (den != 0) {
-      rem = rem - den
-      temp++
-    }
-  }
-  document.getElementById("ANS").innerHTML =
-    num + "/" + den + " = " + temp + " R " + rem
+
 }

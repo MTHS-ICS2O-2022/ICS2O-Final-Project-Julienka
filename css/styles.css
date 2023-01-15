@@ -39,11 +39,15 @@ p {
 }
 
 img {
-  float: right;
-  margin-right: 15px;
+  float: left;
 }
 
 .font {
   font-family: "Playfair Display", "Times New Roman", Times, serif;
   color: black;
+}
+
+.solid {
+  border-style: solid;
+  border-color: #e8788e;
 }
