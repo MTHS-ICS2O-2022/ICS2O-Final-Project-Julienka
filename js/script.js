@@ -57,7 +57,7 @@ function myButtonClicked() {
     document.getElementById("checkOut").innerHTML =
       "Your bill is $" + allTheArt.toFixed(2) + "."
   } else if (paintArt && sandArt && sculptureArt == false) {
-     document.getElementById("checkOut").innerHTML =
+    document.getElementById("checkOut").innerHTML =
       "You have not chosen any items, therefore don't have a price displayed <br /> Please refresh the page and shop to your heart's content!"
   }
 }
