@@ -39,21 +39,21 @@ function myButtonClicked() {
 
   //pairs
   if (paintArt && sandArt == true) {
-    const paintSand = ( 5 + 4.50 ) * 1.3
+    const paintSand = (5 + 4.5) * 1.3
     document.getElementById("checkOut").innerHTML =
       "Your bill is $" + paintSand.toFixed(2) + "."
   } else if (sandArt && sculptureArt == true) {
-    const sandSculpture = ( 5 + 10 ) * 1.3
+    const sandSculpture = (5 + 10) * 1.3
     document.getElementById("checkOut").innerHTML =
       "Your bill is $" + sandSculpture.toFixed(2) + "."
   } else if (paintArt && sculptureArt == true) {
-    const paintSculpture = ( 4.50 + 10 ) * 1.3
+    const paintSculpture = (4.5 + 10) * 1.3
     document.getElementById("checkOut").innerHTML =
       "Your bill is $" + paintSculpture.toFixed(2) + "."
   }
   //all three and none
   if (paintArt && sandArt && sculptureArt == true) {
-    const allTheArt = ( 5 + 4.50 + 10 ) * 1.3
+    const allTheArt = (5 + 4.5 + 10) * 1.3
     document.getElementById("checkOut").innerHTML =
       "Your bill is $" + allTheArt.toFixed(2) + "."
   }
