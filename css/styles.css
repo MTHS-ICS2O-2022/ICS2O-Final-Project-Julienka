@@ -27,7 +27,7 @@
 }
 
 body {
-  background-color: rgb(194 155 232);
+  background-color: rgb(212 155 232);
 }
 
 p {
@@ -40,10 +40,23 @@ p {
 
 img {
   float: right;
-  margin-right: 15px;
 }
 
 .font {
   font-family: "Playfair Display", "Times New Roman", Times, serif;
   color: black;
+}
+
+.solid {
+  border-style: solid;
+  border-color: #e8788e;
+}
+
+.float-parent-element {
+  width: 50%;
+}
+
+.float-child-element {
+  float: right;
+  width: 50%;
 }

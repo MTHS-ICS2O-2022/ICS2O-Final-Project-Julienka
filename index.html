@@ -8,7 +8,7 @@
     <meta name="keywords" content="mths, ics2o" />
     <meta name="author" content="Julienka-Sohal" />
     <meta name="theme-color" content="#FFFFFF" />
-    <title>Julienka's Clothing Shop</title>
+    <title>Julienka's Art Shop</title>
     <link
       rel="canonical"
       href="https://julienka-sohal.github.io/ICS2O-Final-Project-Julienka/"
@@ -34,14 +34,14 @@
     </noscript>
     <link
       rel="stylesheet"
-      href="https://code.getmdl.io/1.3.0/material.deep_purple-purple.min.css"
+      href="https://code.getmdl.io/1.3.0/material.purple-orange.min.css"
       media="none"
       onload="if(media!='all')media='all'"
     />
     <noscript>
       <link
         rel="stylesheet"
-        href="https://code.getmdl.io/1.3.0/material.deep_purple-purple.min.css"
+        href="https://code.getmdl.io/1.3.0/material.purple-orange.min.css"
       />
     </noscript>
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
@@ -54,57 +54,70 @@
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">Julienka's Clothing Shop</span>
+          <span class="mdl-layout-title">Julienka's Art Shop</span>
         </div>
       </header>
       <main class="mdl-layout__content">
+        <h3 class="font">Select and shop!</h3>
+        <h6 class="font">Unselect the ones you don't wish to purchase</h6>
         <div>
-          <p></p>
           <img
+            class="solid"
             src="./image/shop-photo.png"
             alt="shop"
-            width="25%"
+            width="19.3%"
             height="25%"
           />
           <p></p>
         </div>
-        <h3 class="font">Select and shop!</h3>
-        <h6 class="font">Select one each and check out with a price</h6>
-        <!-- Shirts Selector -->
-        <table
-          class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp"
+        <!-- art Selector -->
+        <div class="float-parent-element">
+          <label
+            class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect"
+            for="checkbox-1"
+          >
+            <input
+              type="checkbox"
+              id="checkbox-1"
+              class="mdl-checkbox__input"
+              checked
+            />
+            <span class="mdl-checkbox__label font">Painting | $4.50</span>
+          </label>
+          <label
+            class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect"
+            for="checkbox-2"
+          >
+            <input
+              type="checkbox"
+              id="checkbox-2"
+              class="mdl-checkbox__input"
+              checked
+            />
+            <span class="mdl-checkbox__label">Sand Art | $5.00</span>
+          </label>
+          <label
+            class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect"
+            for="checkbox-3"
+          >
+            <input
+              type="checkbox"
+              id="checkbox-3"
+              class="mdl-checkbox__input"
+              checked
+            />
+            <span class="mdl-checkbox__label">Sculpture | $10.00</span>
+          </label>
+        </div>
+        <br />
+        <button
+          class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
+          onclick="myButtonClicked()"
         >
-          <thead>
-            <tr>
-              <th class="mdl-data-table__cell--non-numeric font">Tops</th>
-              <th>|</th>
-              <th class="font">Price</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td class="mdl-data-table__cell--non-numeric font">
-                Plain Dark Green Sweater
-              </td>
-              <td class="font">|</td>
-              <td class="font">$2.90</td>
-            </tr>
-            <tr>
-              <td class="mdl-data-table__cell--non-numeric font">
-                Blue and white checkered button up shirt
-              </td>
-              <td>|</td>
-              <td class="font">$1.25</td>
-            </tr>
-            <tr>
-              <td class="mdl-data-table__cell--non-numeric font">
-                Grayish-Brown shirt with graffiti art
-              </td>
-              <td>|</td>
-              <td class="font">$2.35</td>
-            </tr>
-          </tbody>
-        </table>
+          Check out
+        </button>
+        <p></p>
+        <div id="checkOut" class="font">?</div>
       </main>
     </div>
   </body>
