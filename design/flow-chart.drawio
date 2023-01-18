@@ -1,35 +1,62 @@
 <mxfile host="65bd71144e">
     <diagram id="GInHtZuMB5CcCfA9ihm7" name="Page-1">
-        <mxGraphModel dx="690" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="820" dy="570" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="7" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="3">
+                <mxCell id="7" style="edgeStyle=none;html=1;" parent="1" source="2" target="3" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="2" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="2" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="300" y="260" width="100" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="4">
+                <mxCell id="11" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="10">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="Input" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-                    <mxGeometry x="300" y="360" width="100" height="60" as="geometry"/>
+                <mxCell id="3" value="choose the&lt;br&gt;art you want" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="350" width="100" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" style="edgeStyle=none;html=1;" edge="1" parent="1" source="4" target="5">
+                <mxCell id="6" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="180" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="10" target="13">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="process" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="300" y="460" width="100" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="10" style="edgeStyle=none;html=1;" edge="1" parent="1" source="5" target="6">
+                <mxCell id="21" value="" style="edgeStyle=none;rounded=0;html=1;" edge="1" parent="1" source="10" target="20">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="Output" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-                    <mxGeometry x="300" y="600" width="100" height="60" as="geometry"/>
+                <mxCell id="10" value="if (paintArt &lt;br&gt;== true)" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;rounded=0;arcSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="302.5" y="446.25" width="97.5" height="97.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="300" y="700" width="100" height="60" as="geometry"/>
+                <mxCell id="13" value="&lt;div&gt;const paintArtAns&amp;nbsp;&lt;/div&gt;&lt;div&gt;= paintArtPrice * TAX_RATE&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; document.getElementById&lt;/div&gt;&lt;div&gt;(&quot;checkOut&quot;).innerHTML =&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;Your bill is $&quot; + paintArtAns.toFixed(2) + &quot;.&quot;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;rounded=0;arcSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="448.75" width="190" height="92.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="470" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="no" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="305" y="550" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="edgeStyle=none;rounded=0;html=1;" edge="1" parent="1" source="20" target="22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="edgeStyle=none;rounded=0;html=1;" edge="1" parent="1" source="20" target="24">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="else if &lt;br&gt;(sandArt &lt;br&gt;== true)" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;rounded=0;arcSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="301.25" y="570" width="97.5" height="97.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="&lt;div&gt;const sandArtAns&lt;/div&gt;&lt;div&gt;&amp;nbsp;= sandArtPrice * TAX_RATE&lt;span&gt;&amp;nbsp; &amp;nbsp; document.getElementById&lt;/span&gt;&lt;/div&gt;&lt;div&gt;(&quot;checkOut&quot;).innerHTML =&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;Your bill is $&quot; + sandArtAns.toFixed(2) + &quot;.&quot;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;rounded=0;arcSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="578.75" width="182.5" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="" style="edgeStyle=none;rounded=0;html=1;" edge="1" parent="1" source="24" target="28">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="else if (sculptureArt == true)" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;rounded=0;arcSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="700" width="97.5" height="97.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="&lt;div&gt;const sculptureArtAns&amp;nbsp;&lt;/div&gt;&lt;div&gt;= sculpturePrice * TAX_RATE&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; document.getElementById&lt;/div&gt;&lt;div&gt;(&quot;checkOut&quot;).innerHTML =&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;Your bill is $&quot; + sculptureArtAns.toFixed(2) + &quot;.&quot;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=2;rounded=0;arcSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="702.81" width="190" height="91.87" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
