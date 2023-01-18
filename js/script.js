@@ -17,43 +17,48 @@ if (navigator.serviceWorker) {
 
 //process
 function myButtonClicked() {
-  // variables
+  // Main constants 
+  const TAX_RATE = 1.13
+  const paintArtPrice = 4.50
+  const sandArtPrice = 5
+  const sculpturePrice = 10
+  // checked constants ( checkbox )
   const paintArt = document.getElementById("checkbox-1").checked
   const sandArt = document.getElementById("checkbox-2").checked
   const sculptureArt = document.getElementById("checkbox-3").checked
 
   //singles
   if (paintArt == true) {
-    const paintArtAns = 4.5 * 1.3
+    const paintArtAns = paintArtPrice * TAX_RATE
     document.getElementById("checkOut").innerHTML =
       "Your bill is $" + paintArtAns.toFixed(2) + "."
   } else if (sandArt == true) {
-    const sandArtAns = 5 * 1.3
+    const sandArtAns = sandArtPrice * TAX_RATE
     document.getElementById("checkOut").innerHTML =
       "Your bill is $" + sandArtAns.toFixed(2) + "."
   } else if (sculptureArt == true) {
-    const sculptureArtAns = 10 * 1.3
+    const sculptureArtAns = sculpturePrice * TAX_RATE
     document.getElementById("checkOut").innerHTML =
       "Your bill is $" + sculptureArtAns.toFixed(2) + "."
   }
 
   //pairs
   if (paintArt && sandArt == true) {
-    const paintSand = (5 + 4.5) * 1.3
+    const paintSand = (sandArtPrice + paintArtPrice) * TAX_RATE
     document.getElementById("checkOut").innerHTML =
       "Your bill is $" + paintSand.toFixed(2) + "."
   } else if (sandArt && sculptureArt == true) {
-    const sandSculpture = (5 + 10) * 1.3
+    const sandSculpture = (sandArtPrice + sculpturePrice) * TAX_RATE
     document.getElementById("checkOut").innerHTML =
       "Your bill is $" + sandSculpture.toFixed(2) + "."
   } else if (paintArt && sculptureArt == true) {
-    const paintSculpture = (4.5 + 10) * 1.3
+    const paintSculpture = (paintArtPrice + sculpturePrice) * TAX_RATE
     document.getElementById("checkOut").innerHTML =
       "Your bill is $" + paintSculpture.toFixed(2) + "."
   }
   //all three and none
   if (paintArt && sandArt && sculptureArt == true) {
-    const allTheArt = (5 + 4.5 + 10) * 1.3
+    const allTheArt = (sandArtPrice + paintArtPrice + sculpturePrice) * TAX_RATE
     document.getElementById("checkOut").innerHTML =
       "Your bill is $" + allTheArt.toFixed(2) + "."
   }
