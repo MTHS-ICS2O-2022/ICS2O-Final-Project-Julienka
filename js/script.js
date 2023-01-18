@@ -17,9 +17,9 @@ if (navigator.serviceWorker) {
 
 //process
 function myButtonClicked() {
-  // Main constants 
+  // Main constants
   const TAX_RATE = 1.13
-  const paintArtPrice = 4.50
+  const paintArtPrice = 4.5
   const sandArtPrice = 5
   const sculpturePrice = 10
   // checked constants ( checkbox )
