@@ -1,7 +1,7 @@
 // Copyright (c) 2022 Julienka Sohal All rights reserved
 //
 // Created by: Julienka Sohal
-// Created on: Nov 2022
+// Created on: Jan 2023
 // This file contains the JS functions for index.html
 
 "use strict"
