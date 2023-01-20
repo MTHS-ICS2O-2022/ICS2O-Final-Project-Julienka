@@ -55,8 +55,3 @@ img {
 .float-parent-element {
   width: 50%;
 }
-
-.float-child-element {
-  float: right;
-  width: 50%;
-}
